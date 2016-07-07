@@ -63,7 +63,7 @@ map.setMarkAddressWindow(['Address 1', 'Address 2'], ['<h1> Test1 </h1>', '<h3> 
 ```js
 map.setMarkCoordenate([{lat : someLat, lng: someLng}, {lat: someLat, lng: someLng}]);
 ```
--**setCoordenateWindow** - Set a simple Mark with coordenate and open a window, when you click on some Mark
+- **setCoordenateWindow** - Set a simple Mark with coordenate and open a window, when you click on some Mark
 ```js
 map.setMarkCoordenateWindow([{lat : someLat, lng: someLng}, {lat: someLat, lng: someLng}],
                             [ '<h1> Test1 </h1>', '<h3> Test2 </h3>']);
