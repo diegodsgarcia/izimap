@@ -1,5 +1,5 @@
 # IziMap
-Just a lib of Javascript to implement maps the easy way,  that using the Google API Maps
+Just a lib of Javascript to implement maps the easy way, which use the Google API Maps
 
 #How to use?
 The first step, you must link in your html the Google Maps API with your Key security 
