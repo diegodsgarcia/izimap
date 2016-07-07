@@ -15,7 +15,8 @@ After that you just need link the lib IziMap and instantiating.
 <script>
   var map = new IziMap('map');
 </script>
-
+```
+```html
 <div id="map">
 
 </div>
