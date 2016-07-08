@@ -21,7 +21,7 @@ After that you just need link the lib IziMap and instantiating.
 
 </div>
 ```
-The first params of constructor is the element ID. You can initialize with the coordenate if you want.
+The first params of constructor is the element ID. You can initialize with the coordinate if you want.
 ```js
 var map = new IziMap('map', lat, lng);
 
