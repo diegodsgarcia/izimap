@@ -28,11 +28,11 @@ var map = new IziMap('map', lat, lng);
 ```
 
 #Methods
-- **setCoordenate** - Set coordenate in your map
+- **setAddress** - Set coordenate in your map
 ```js
 map.setAddress('Your address')
 ```
-- **setAddress** - Set address in your map
+- **setCoordenate** - Set address in your map
 ```js
 map.setCoordenate(lat, lng)
 ```
