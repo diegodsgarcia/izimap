@@ -28,23 +28,23 @@ var map = new IziMap('map', lat, lng);
 ```
 
 #Methods
-- **setAddress** - Set coordenate in your map
+- **setAddress** - Set address in your map
 ```js
 map.setAddress('Your address')
 ```
-- **setCoordenate** - Set address in your map
+- **setCoordinate** - Set coordinate in your map
 ```js
-map.setCoordenate(lat, lng)
+map.setCoordinate(lat, lng)
 ```
-- **addressToCoordenate** - Convert some Address to Coordenate which return a function callback
+- **addressToCoordenate** - Convert some Address to Coordinate which return a function callback
 ```js
-map.addressToCoordenate(['Address 1', 'Address 2'], function(lat, lng, status) {
+map.addressToCoordinate(['Address 1', 'Address 2'], function(lat, lng, status) {
     console.log(lat, lng, status);
 });
 ```
-- **coordenateToAddress** - Convert some Coordenate to Address which return a function callback 
+- **coordinateToAddress** - Convert some Coordinate to Address which return a function callback 
 ```js
-map.coordenateToAddress([
+map.coordinateToAddress([
   {lat : someLat, lng: someLng},
   {lat: someLat, lng: someLng}], 
   function(address, status) {
@@ -60,13 +60,13 @@ map.setMarkAddress(['Address 1', 'Address 2']);
 ```js
 map.setMarkAddressWindow(['Address 1', 'Address 2'], ['<h1> Test1 </h1>', '<h3> Test2 </h3>']);
 ```
-- **setMarkCoordenate** - Set a simple Mark with some Coordenate in your Map
+- **setMarkCoordinate** - Set a simple Mark with some Coordinate in your Map
 ```js
-map.setMarkCoordenate([{lat : someLat, lng: someLng}, {lat: someLat, lng: someLng}]);
+map.setMarkCoordinate([{lat : someLat, lng: someLng}, {lat: someLat, lng: someLng}]);
 ```
-- **setMarkCoordenateWindow** - Set a simple Mark with coordenate and open a window, when you click on some Mark
+- **setMarkCoordinateWindow** - Set a simple Mark with coordinate and open a window, when you click on some Mark
 ```js
-map.setMarkCoordenateWindow([{lat : someLat, lng: someLng}, {lat: someLat, lng: someLng}],
+map.setMarkCoordinateWindow([{lat : someLat, lng: someLng}, {lat: someLat, lng: someLng}],
                             [ '<h1> Test1 </h1>', '<h3> Test2 </h3>']);
 ```
 
