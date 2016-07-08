@@ -36,7 +36,7 @@ map.setAddress('Your address')
 ```js
 map.setCoordinate(lat, lng)
 ```
-- **addressToCoordenate** - Convert some Address to Coordinate which return a function callback
+- **addressToCoordinate** - Convert some Address to Coordinate which return a function callback
 ```js
 map.addressToCoordinate(['Address 1', 'Address 2'], function(lat, lng, status) {
     console.log(lat, lng, status);
